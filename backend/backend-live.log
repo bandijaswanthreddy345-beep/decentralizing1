@@ -1,0 +1,3 @@
+◇ injected env (16) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+MongoDB connected: localhost
+EtherXMeet backend running on http://localhost:5000

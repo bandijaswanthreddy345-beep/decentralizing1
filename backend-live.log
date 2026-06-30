@@ -1,0 +1,16 @@
+
+> etherxmeet-backend@1.0.0 dev
+> nodemon src/index.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+◇ injected env (12) from .env // tip: ⌘ enable debugging { debug: true }
+MongoDB connected: localhost
+EtherXMeet backend running on http://localhost:5000
+[0mGET /api/auth/google [36m302[0m 8.660 ms - 0[0m
+[0mGET /api/auth/google/callback?iss=https%3A%2F%2Faccounts.google.com&code=4%2F0Aci98E_HEdNtu-gmLNjsNKwdTOL6mfjBGBiHIQPyiIKUXO-le7i4A_xVBeazqmxKdwCg5Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none [36m302[0m 668.275 ms - 303[0m
+[0mGET /api/auth/me [32m200[0m 8.959 ms - 319[0m
+[0mGET /api/auth/me [36m304[0m 3.275 ms - -[0m

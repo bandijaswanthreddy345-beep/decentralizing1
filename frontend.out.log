@@ -1,0 +1,1075 @@
+
+> etherxmeet@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v8.0.7[39m  [2mready in [0m[1m185[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3000[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m8:13:00 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:13:00 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:13:49 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mjoining signal with  wss://etherxmeet-9kvqnuhc.livekit.cloud
+[2m8:14:08 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError while running updatePages():  Error: Element not part of the array: 0xf39F…2266_camera_placeholder not in 0xf39F…2266_camera_TR_VCguq35Qc8qcGk
+    at vt (http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:27871:22)
+    at Po (http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:27875:12)
+    at http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:27898:21
+    at Array.forEach (<anonymous>)
+    at http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:27897:181
+    at Array.forEach (<anonymous>)
+    at Ts (http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:27894:31)
+    at Kt$1 (http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:29184:7)
+    at jn$1 (http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:29205:11)
+    at wa (http://localhost:3000/node_modules/.vite/deps/@livekit_components-react.js?v=39cf656e:31391:151)
+[2m8:14:19 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mjoining signal with  wss://etherxmeet-9kvqnuhc.livekit.cloud
+[2m8:15:10 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Room.jsx[22m
+[2m8:15:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Room.jsx[22m
+[2m8:16:49 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:16:49 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:16:49 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:16:49 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:16:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:16:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:17:06 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:06 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:06 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:07 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:25 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:25 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:25 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:25 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:26 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:27 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:27 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:27 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:27 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:29 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:17:30 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:30 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:17:30 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:17:30 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:18:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:18:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:18:48 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:18:48 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > HTMLUnknownElement.callCallback node_modules/react-dom/cjs/react-dom.development.js:4164:13
+ > Object.invokeGuardedCallbackDev node_modules/react-dom/cjs/react-dom.development.js:4213:15
+ > invokeGuardedCallback node_modules/react-dom/cjs/react-dom.development.js:4277:30
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27490:6
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+
+[2m8:18:48 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in the <Room> component:
+
+    at Room (http://localhost:3000/src/pages/Room.jsx?t=1777473930619:30:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777473930619:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+[2m8:18:48 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mReferenceError[22m: useLiveKitToken is not defined
+[39m > Room src/pages/Room.jsx:49:62
+    47 |      : `Guest-${code.slice(-4)}`;
+    48 |  
+    49 |    const { token, loading: tokenLoading, error: tokenError } = useLiveKitToken(code, participantName);
+       |                                                                ^
+    50 |  
+    51 |    useEffect(() => {
+ > renderWithHooks node_modules/react-dom/cjs/react-dom.development.js:15486:17
+ > mountIndeterminateComponent node_modules/react-dom/cjs/react-dom.development.js:20103:12
+ > beginWork node_modules/react-dom/cjs/react-dom.development.js:21626:15
+ > beginWork$1 node_modules/react-dom/cjs/react-dom.development.js:27465:13
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom.development.js:26596:11
+ > workLoopSync node_modules/react-dom/cjs/react-dom.development.js:26505:4
+ > renderRootSync node_modules/react-dom/cjs/react-dom.development.js:26473:6
+ > recoverFromConcurrentError node_modules/react-dom/cjs/react-dom.development.js:25889:19
+ > performConcurrentWorkOnRoot node_modules/react-dom/cjs/react-dom.development.js:25789:21
+
+[2m8:20:22 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Room.jsx[22m
+[2m8:20:53 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:20:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:20:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:23:10 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:23:11 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:23:11 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:25:40 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:28:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:28:07 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:28:07 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:29:17 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:29:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:29:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:29:50 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:30:18 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:30:41 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:32:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:32:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:33:04 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render.
+    at OnChainConfirmModal (http://localhost:3000/src/components/web3/OnChainConfirmModal.jsx:86:47)
+    at div
+    at MotionDOMComponent (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:9750:35)
+    at AnimatedPage (http://localhost:3000/src/components/layout/AnimatedPage.jsx:15:40)
+    at Landing (http://localhost:3000/src/pages/Landing.jsx:145:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777474841643:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+[2m8:33:04 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render.
+    at OnChainConfirmModal (http://localhost:3000/src/components/web3/OnChainConfirmModal.jsx:86:47)
+    at div
+    at MotionDOMComponent (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:9750:35)
+    at AnimatedPage (http://localhost:3000/src/components/layout/AnimatedPage.jsx:15:40)
+    at Landing (http://localhost:3000/src/pages/Landing.jsx:145:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777474841643:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+[2m8:33:05 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render.
+    at OnChainConfirmModal (http://localhost:3000/src/components/web3/OnChainConfirmModal.jsx:86:47)
+    at div
+    at MotionDOMComponent (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:9750:35)
+    at AnimatedPage (http://localhost:3000/src/components/layout/AnimatedPage.jsx:15:40)
+    at Landing (http://localhost:3000/src/pages/Landing.jsx:145:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777474841643:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+[2m8:33:05 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mWarning: Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render.
+    at OnChainConfirmModal (http://localhost:3000/src/components/web3/OnChainConfirmModal.jsx:86:47)
+    at div
+    at MotionDOMComponent (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:9750:35)
+    at AnimatedPage (http://localhost:3000/src/components/layout/AnimatedPage.jsx:15:40)
+    at Landing (http://localhost:3000/src/pages/Landing.jsx:145:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Outlet (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3703:25)
+    at ProtectedRoute (http://localhost:3000/src/components/auth/ProtectedRoute.jsx:9:19)
+    at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3332:8)
+    at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3775:8)
+    at PopChildMeasure (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8618:23)
+    at PopChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8644:21)
+    at PresenceChild (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8700:24)
+    at AnimatePresence (http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=39cf656e:8869:26)
+    at AppRoutes (http://localhost:3000/src/App.jsx?t=1777474841643:31:19)
+    at MeetingProvider (http://localhost:3000/src/context/MeetingContext.jsx:50:35)
+    at UIProvider (http://localhost:3000/src/context/UIContext.jsx:13:30)
+    at UserProvider (http://localhost:3000/src/context/UserContext.jsx:49:32)
+    at AnimationProvider (http://localhost:3000/src/context/AnimationContext.jsx:16:37)
+    at WalletProvider (http://localhost:3000/src/context/WalletContext.jsx:9:34)
+    at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:3723:18)
+    at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=39cf656e:4402:8)
+    at App
+    at l (http://localhost:3000/node_modules/.vite/deps/@100mslive_react-sdk.js?v=39cf656e:19890:67)
+[2m8:34:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:34:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:34:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:35:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:35:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:35:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:39:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/features/Scheduler/index.jsx[22m
+[2m8:40:41 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:40:42 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:40:42 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:40:46 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:40:47 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:40:47 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:40:52 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:40:52 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:40:52 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:40:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:40:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:40:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:41:00 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:41:01 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:41:01 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:46:07 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:46:07 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:46:07 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:47:41 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Dashboard.jsx[22m
+[2m8:47:58 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Dashboard.jsx[22m
+[2m8:48:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Dashboard.jsx[22m
+[2m8:48:18 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Dashboard.jsx[22m
+[2m8:48:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Dashboard.jsx[22m
+[2m8:49:11 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/features/Scheduler/index.jsx[22m
+[2m8:49:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/features/Scheduler/index.jsx[22m
+[2m8:49:55 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/features/Scheduler/index.jsx[22m
+[2m8:50:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/features/Scheduler/index.jsx[22m
+[2m8:50:10 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:50:22 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:50:29 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:50:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:51:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:51:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:51:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Recordings.jsx[22m
+[2m8:51:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/features/Scheduler/index.jsx[22m
+[2m8:54:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:54:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:54:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:54:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:54:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:54:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:54:33 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:54:33 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:54:33 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:54:37 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:54:37 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:54:37 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m8:59:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m8:59:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m8:59:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:01:15 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:01:16 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:01:16 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:03:17 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:03:17 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:03:17 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:03:21 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:03:21 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:03:21 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:03:23 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:03:23 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:03:23 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:03:32 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/styles/landing.css[22m
+[2m9:03:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/styles/landing.css[22m
+[2m9:07:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:07:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:07:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:07:39 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:07:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:07:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:07:41 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:07:41 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:07:41 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:35:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:35:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:35:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:35:53 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:35:53 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:35:53 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:35:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:35:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:35:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:36:02 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:36:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:36:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:36:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:36:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:36:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:36:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:37:07 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:37:15 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:37:15 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:38:25 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:38:25 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:38:25 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:38:29 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:38:29 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:38:29 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:38:53 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:38:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:38:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:38:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:38:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:38:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:39:12 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:39:12 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:39:12 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:59:36 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:59:36 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:59:36 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:59:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:59:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:59:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m9:59:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m9:59:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m9:59:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m10:15:53 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m10:15:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m10:15:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m10:15:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m10:15:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m10:15:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m10:27:26 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m10:27:26 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m10:27:26 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m10:27:34 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected
+[2m10:27:35 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+[2m10:27:35 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+[2m10:32:27 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mHMS-Store: possible inconsistency detected -  room leave is called when no room is connected

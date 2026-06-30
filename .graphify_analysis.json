@@ -1,0 +1,1463 @@
+{
+  "communities": {
+    "0": [
+      "avatar_avatar",
+      "avatar_get_initials",
+      "badge_badge",
+      "button_button",
+      "button_ripple_state",
+      "card_card",
+      "dropdown_dropdown",
+      "dropdown_focus_management",
+      "index_ui_component_barrel",
+      "input_focus_glow_state",
+      "input_input",
+      "joinmeetingmodal_join_meeting_modal",
+      "joinmeetingmodal_meeting_code_state",
+      "modal_focus_trap",
+      "modal_modal",
+      "participantspanel_network_tone",
+      "participantspanel_participants_panel",
+      "participantspanel_status_pill",
+      "reactionpicker_reaction_picker",
+      "reactionpicker_reactions",
+      "readme_glassmorphic_design_system",
+      "readme_ui_component_library",
+      "setup_tailwind_configuration",
+      "setup_ui_setup_guide",
+      "slider_percentage_model",
+      "slider_slider",
+      "spinner_spinner",
+      "summary_component_inventory",
+      "summary_ui_library_complete",
+      "switch_switch",
+      "tabs_active_tab_state",
+      "tabs_tabs",
+      "tooltip_tooltip",
+      "uidemo_ui_demo",
+      "videogrid_get_grid_class",
+      "videogrid_video_grid",
+      "videotile_network_tone",
+      "videotile_tile_themes",
+      "videotile_video_tile"
+    ],
+    "1": [
+      "analytics_analytics",
+      "analytics_chainstat",
+      "analytics_chartcard",
+      "analytics_metricrow",
+      "animationvariants_motionvariantpresets",
+      "apiclient_apiclient",
+      "apiclient_getapierrormessage",
+      "auth_authsession",
+      "auth_buildstoreduser",
+      "auth_persistauthsession",
+      "authapi_submitauth",
+      "authcallback_authcallback",
+      "authshared_authshared",
+      "code_insightaiauthprototype",
+      "constants_routes",
+      "dashboard_dashboard",
+      "design_luminadarkdesignsystem",
+      "design_luminadarkdesignsystem_duplicate",
+      "join_deviceselector",
+      "join_formatmeetingcode",
+      "join_handlejoinmeeting",
+      "join_join",
+      "join_validateform",
+      "landing_generateroomcode",
+      "landing_landing",
+      "landing_normalizemeetingcode",
+      "login_login",
+      "meetingapi_meetingapiclient",
+      "meetingapi_post",
+      "recordings_recordings",
+      "register_register",
+      "room_getmimetype",
+      "room_handlestartrecording",
+      "room_room",
+      "room_uploadrecording",
+      "settings_handleprofileupdate",
+      "settings_settings"
+    ],
+    "2": [
+      "components_connectwalletbutton_connectwalletbutton",
+      "context_walletcontext_usewallet",
+      "context_walletcontext_walletprovider",
+      "frontend_src_components_connectwalletbutton_jsx",
+      "frontend_src_components_web3_chainhud_jsx",
+      "frontend_src_components_web3_walletbanner_jsx",
+      "frontend_src_context_walletcontext_jsx",
+      "frontend_src_hooks_useensname_js",
+      "frontend_src_hooks_usemediadevices_js",
+      "frontend_src_hooks_usemeetingcontract_js",
+      "frontend_src_hooks_usemeetingnft_js",
+      "frontend_src_pages_analytics_jsx",
+      "frontend_src_pages_dashboard_jsx",
+      "frontend_src_pages_join_jsx",
+      "frontend_src_pages_recordings_jsx",
+      "frontend_src_pages_room_jsx",
+      "hooks_useensname_useensname",
+      "hooks_usemediadevices_usemediadevices",
+      "hooks_usemeetingcontract_usemeetingcontract",
+      "hooks_usemeetingnft_usemeetingnft",
+      "pages_analytics_analytics",
+      "pages_analytics_chainstat",
+      "pages_analytics_chartcard",
+      "pages_analytics_metricrow",
+      "pages_dashboard_dashboard",
+      "pages_join_deviceselector",
+      "pages_join_join",
+      "pages_recordings_recordings",
+      "pages_room_getmimetype",
+      "pages_room_room",
+      "web3_chainhud_chainhud",
+      "web3_walletbanner_truncate",
+      "web3_walletbanner_walletbanner"
+    ],
+    "3": [
+      "auth_protectedroute_protectedroute",
+      "frontend_src_components_auth_protectedroute_jsx",
+      "frontend_src_components_features_engagementgames_games_speednetworking_jsx",
+      "frontend_src_components_features_recordingstudio_index_jsx",
+      "frontend_src_components_features_smartagenda_agendaitem_jsx",
+      "frontend_src_components_features_smartagenda_agendaprogress_jsx",
+      "frontend_src_pages_landing_jsx",
+      "frontend_src_utils_auth_js",
+      "games_speednetworking_speednetworking",
+      "pages_landing_cameraicon",
+      "pages_landing_formattime",
+      "pages_landing_generateroomcode",
+      "pages_landing_landing",
+      "pages_landing_micofficon",
+      "pages_landing_miconicon",
+      "pages_landing_moreicon",
+      "pages_landing_normalizemeetingcode",
+      "recordingstudio_index_recordingstudio",
+      "smartagenda_agendaitem_agendaitem",
+      "smartagenda_agendaprogress_agendaprogress",
+      "utils_auth_buildstoreduser",
+      "utils_auth_clearauthsession",
+      "utils_auth_getauthtoken",
+      "utils_auth_getstoreduser",
+      "utils_auth_getuserinitials",
+      "utils_auth_isauthenticated",
+      "utils_auth_persistauthsession",
+      "utils_auth_slugify"
+    ],
+    "4": [
+      "2026_04_12_nexmeet_animation_system_animation_plan",
+      "2026_04_12_nexmeet_animation_system_design_motion_language",
+      "2026_04_12_nexmeet_animation_system_room_subdued_motion",
+      "2026_04_12_nexmeet_animation_system_three_layer_architecture",
+      "EXPLANATION_deploy_script_sync",
+      "EXPLANATION_meetingregistry_contract",
+      "EXPLANATION_project_structure",
+      "EXPLANATION_react_entry_flow",
+      "EtherXMeet_Polygon_Integration_livekit_recording_api",
+      "EtherXMeet_Polygon_Integration_meeting_nft_receipts",
+      "EtherXMeet_Polygon_Integration_polygon_integration_doc",
+      "EtherXMeet_Product_Document_chainhud",
+      "EtherXMeet_Product_Document_etherxmeet_platform",
+      "EtherXMeet_Product_Document_html_product_doc",
+      "EtherXMeet_Product_Document_ipfs_receipts",
+      "EtherXMeet_Product_Document_live_video",
+      "EtherXMeet_Product_Document_onchain_lifecycle",
+      "EtherXMeet_Product_Document_wallet_authentication",
+      "PROGRESS_REPORT_pending_polygon_deployment",
+      "PROGRESS_REPORT_pending_recording_nft_ens",
+      "PROGRESS_REPORT_sprint_status",
+      "RUNNING_full_meeting_test_flow",
+      "RUNNING_hardhat_metamask_flow",
+      "RUNNING_local_runbook",
+      "_ast_extract_graphify_ast_extraction",
+      "hardhat_config_networks",
+      "hardhat_config_private_key_validation",
+      "livekit_token_route"
+    ],
+    "5": [
+      "AudioVisualizer_AudioVisualizer",
+      "AudioVisualizer_WebAudioAnalyser",
+      "BOTTOMBAR_README_MeetingContextContract",
+      "BOTTOMBAR_README_MeetingControlBar",
+      "BackgroundGallery_BackgroundGallery",
+      "BackgroundGallery_PresetBackgrounds",
+      "BackgroundPreview_BackgroundPreview",
+      "BlurSettings_BlurSettings",
+      "BottomBar_BottomBar",
+      "BottomBar_DockButton",
+      "BottomBar_MeetingActionMenu",
+      "ChatPanel_ChatPanel",
+      "ChatPanel_TranslatedChatLane",
+      "ColorPicker_ColorPicker",
+      "CustomUpload_CustomUpload",
+      "CustomUpload_FileReaderUpload",
+      "EffectCard_EffectCard",
+      "Equalizer_EQBands",
+      "Equalizer_Equalizer",
+      "FloatingReaction_FloatingReaction",
+      "MeetingRail_MeetingRail",
+      "MeetingRail_PeopleAndChatModel",
+      "TopBar_MeetingMetadata",
+      "TopBar_TopBar",
+      "index_BackgroundSelectionState",
+      "index_ToneEffectsChain",
+      "index_VirtualBackgroundStudio",
+      "index_VoiceEffects"
+    ],
+    "6": [
+      "agenda_agenda_templates",
+      "analytics_meeting_analytics",
+      "analytics_sentiment_model",
+      "meetingcontext_analytics_snapshot",
+      "meetingcontext_async_message_persistence",
+      "meetingcontext_collaboration_state",
+      "meetingcontext_current_user_participant",
+      "meetingcontext_meeting_provider",
+      "meetingcontext_recording_persistence",
+      "meetingcontext_scheduled_meeting_persistence",
+      "meetings_meeting_seed_data",
+      "meetings_notification_seed_data",
+      "participants_participant_seed_data",
+      "recordings_recording_seed_data",
+      "transcripts_transcript_seed_data",
+      "uicontext_theme_persistence",
+      "uicontext_toast_queue",
+      "uicontext_ui_provider",
+      "uselocalstorage_local_storage_state",
+      "usemediadevices_device_permission_flow",
+      "usemediadevices_media_devices_hook",
+      "usercontext_user_provider",
+      "usercontext_user_settings",
+      "usevoicefx_tone_effects_chain",
+      "usevoicefx_voice_fx_hook"
+    ],
+    "7": [
+      "asyncmessages_index_asyncmessages",
+      "asyncmessages_index_formatduration",
+      "breakoutrooms_index_breakoutrooms",
+      "breakoutrooms_index_formattimer",
+      "context_meetingcontext_usemeeting",
+      "frontend_src_components_features_asyncmessages_index_jsx",
+      "frontend_src_components_features_breakoutrooms_index_jsx",
+      "frontend_src_components_features_scheduler_index_jsx",
+      "frontend_src_components_layout_bottombar_jsx",
+      "frontend_src_components_layout_topbar_jsx",
+      "frontend_src_components_meeting_chatpanel_jsx",
+      "frontend_src_components_meeting_meetingrail_jsx",
+      "layout_bottombar_bottombar",
+      "layout_bottombar_dockbutton",
+      "layout_topbar_buildmeetingcode",
+      "layout_topbar_buildweatherlabel",
+      "layout_topbar_etherxmark",
+      "layout_topbar_iconshell",
+      "layout_topbar_topbar",
+      "layout_topbar_topchip",
+      "meeting_chatpanel_chatpanel",
+      "meeting_meetingrail_meetingrail",
+      "scheduler_index_scheduler",
+      "scheduler_index_toicsdate"
+    ],
+    "8": [
+      "chainhud_block_polling",
+      "chainhud_chain_hud",
+      "chainhud_network_label_map",
+      "chainproofbadge_chain_proof_badge",
+      "chainproofbadge_polygonscan_tx_url",
+      "meetingreceiptmodal_ipfs_gateway_link",
+      "meetingreceiptmodal_meeting_receipt_modal",
+      "meetingreceiptmodal_polygonscan_receipt_link",
+      "onchainconfirmmodal_on_chain_confirm_modal",
+      "onchainconfirmmodal_transaction_phase_state",
+      "useensname_ens_name_lookup",
+      "usemeetingcontract_contract_lifecycle",
+      "usemeetingcontract_event_polling",
+      "usemeetingcontract_ipfs_metadata_flow",
+      "usemeetingcontract_meeting_contract_hook",
+      "usemeetingnft_meeting_nft_hook",
+      "usemeetingnft_receipt_minting",
+      "walletbanner_wallet_banner",
+      "walletcontext_chain_switching",
+      "walletcontext_wallet_provider",
+      "walletcontext_wallet_session"
+    ],
+    "9": [
+      "context_meetingcontext_createcurrentuserparticipant",
+      "context_meetingcontext_meetingprovider",
+      "context_uicontext_uiprovider",
+      "context_uicontext_useui",
+      "context_usercontext_userprovider",
+      "context_usercontext_useusercontext",
+      "frontend_src_components_layout_commandpalette_jsx",
+      "frontend_src_components_layout_toastsystem_jsx",
+      "frontend_src_context_meetingcontext_jsx",
+      "frontend_src_context_uicontext_jsx",
+      "frontend_src_context_usercontext_jsx",
+      "frontend_src_hooks_uselocalstorage_js",
+      "frontend_src_pages_settings_jsx",
+      "hooks_uselocalstorage_uselocalstorage",
+      "layout_commandpalette_commandpalette",
+      "layout_toastsystem_toast",
+      "layout_toastsystem_toastsystem",
+      "pages_settings_settingcard",
+      "pages_settings_settings",
+      "pages_settings_settingtoggle"
+    ],
+    "10": [
+      "actionitems_action_items",
+      "aiassistant_action_items_state",
+      "aiassistant_ai_assistant",
+      "aiassistant_export_to_pdf",
+      "aiassistant_generate_summary",
+      "aiassistant_transcript_entries",
+      "emojimoodcheck_emoji_mood_check",
+      "emojimoodcheck_mood_responses",
+      "engagementgames_engagement_games",
+      "engagementgames_game_catalog",
+      "engagementgames_scores_state",
+      "leaderboard_leaderboard",
+      "livetranscription_live_transcription",
+      "meetingsummary_meeting_summary",
+      "quickpoll_quick_poll",
+      "quickpoll_votes_state",
+      "sentimentmeter_sentiment_meter"
+    ],
+    "11": [
+      "EtherXMeet_Product_Document_google_oauth",
+      "Recording_recording_model",
+      "User_remove_sensitive_fields",
+      "User_user_model",
+      "auth_jwt_middleware",
+      "auth_routes_auth_router",
+      "auth_routes_password_reset_flow",
+      "auth_routes_sanitize_user",
+      "auth_routes_send_reset_email",
+      "auth_routes_sign_token",
+      "errorHandler_error_middleware",
+      "index_express_app",
+      "passport_configure_passport",
+      "recordings_routes_cleanup_uploaded_file",
+      "recordings_routes_multer_upload",
+      "recordings_routes_recordings_router"
+    ],
+    "12": [
+      "App_AppRoutes",
+      "App_app_provider_shell",
+      "App_protected_route_group",
+      "ProtectedRoute_auth_gate",
+      "ProtectedRoute_isAuthenticated_check",
+      "index_html_root_mount",
+      "main_hms_room_provider",
+      "main_localstorage_data_version",
+      "main_react_root",
+      "server_100ms_token_server",
+      "server_create_room_endpoint",
+      "server_findRoomByCode",
+      "server_get_token_endpoint",
+      "server_requireHmsConfig",
+      "server_room_code_cache",
+      "vite_react_vite_app"
+    ],
+    "13": [
+      "ActivityLog_component",
+      "LayoutSelector_component",
+      "ParticipantControls_component",
+      "QualitySettings_component",
+      "RecordingIndicator_component",
+      "RecordingPreview_component",
+      "RecordingStudio_component",
+      "RecordingStudio_meeting_context_recording",
+      "RecordingStudio_settings_payload",
+      "ScreenSharePlus_annotation_layer",
+      "ScreenSharePlus_component",
+      "SecurityPanel_component",
+      "SecurityPanel_meeting_controls",
+      "WaitingRoom_component"
+    ],
+    "14": [
+      "screen_design_dark_theme",
+      "screen_design_purple_accent",
+      "screen_insightai_signup_screen",
+      "screen_product_insightai",
+      "screen_ui_cta_create_account",
+      "screen_ui_field_email",
+      "screen_ui_field_fullname",
+      "screen_ui_field_password",
+      "screen_ui_login_link",
+      "screen_ui_oauth_apple",
+      "screen_ui_oauth_google",
+      "screen_ui_registration_form"
+    ],
+    "15": [
+      "analyticsoverlay_analytics_data",
+      "analyticsoverlay_analytics_overlay",
+      "breakoutrooms_breakout_rooms",
+      "breakoutrooms_participant_pool",
+      "breakoutrooms_rooms_state",
+      "engagementscores_engagement_scores",
+      "meetingpace_meeting_pace",
+      "participantinsights_participant_insights",
+      "speakingtimechart_speaking_time_chart"
+    ],
+    "16": [
+      "AddItemModal_component",
+      "AgendaItem_component",
+      "AgendaProgress_component",
+      "MeetingHealth_component",
+      "Scheduler_component",
+      "Scheduler_ics_export",
+      "Scheduler_meeting_payload",
+      "SmartAgenda_agenda_items",
+      "SmartAgenda_component"
+    ],
+    "17": [
+      "screen_apple_auth_option",
+      "screen_close_action",
+      "screen_dark_centered_auth_layout",
+      "screen_email_auth_option",
+      "screen_email_input",
+      "screen_google_auth_option",
+      "screen_insight_ai",
+      "screen_insight_ai_signup_gate",
+      "screen_signup_unlock_rationale"
+    ],
+    "18": [
+      "ARCHITECTURE_data_logic_layer",
+      "ARCHITECTURE_etherxmeet_frontend_architecture",
+      "ARCHITECTURE_feature_module_pattern",
+      "ARCHITECTURE_state_management_layer",
+      "CollaboratorAvatar_dashboard_collaborator",
+      "MOCK_DATA_README_context_providers",
+      "MeetingCard_dashboard_meeting_card",
+      "StatsCard_dashboard_metric_card"
+    ],
+    "19": [
+      "SpeedNetworking_component",
+      "SpeedNetworking_score_callback",
+      "TriviaQuiz_component",
+      "TriviaQuiz_question_bank",
+      "TwoTruthsOneLie_component",
+      "TwoTruthsOneLie_mock_players",
+      "WordAssociation_component",
+      "WordAssociation_word_cloud"
+    ],
+    "20": [
+      "screen_insightai_auth_apple_button",
+      "screen_insightai_auth_close_button",
+      "screen_insightai_auth_email_button",
+      "screen_insightai_auth_email_input",
+      "screen_insightai_auth_google_button",
+      "screen_insightai_dark_theme",
+      "screen_insightai_product",
+      "screen_insightai_signup_modal"
+    ],
+    "21": [
+      "context_animationcontext_animationprovider",
+      "context_animationcontext_useanimation",
+      "frontend_src_components_layout_animatedpage_jsx",
+      "frontend_src_components_layout_customcursor_jsx",
+      "frontend_src_context_animationcontext_jsx",
+      "layout_animatedpage_animatedpage",
+      "layout_customcursor_customcursor"
+    ],
+    "22": [
+      "frontend_src_pages_authshared_jsx",
+      "pages_authshared_appleicon",
+      "pages_authshared_eyeicon",
+      "pages_authshared_googleicon",
+      "pages_authshared_lockicon",
+      "pages_authshared_mailicon",
+      "pages_authshared_personicon"
+    ],
+    "23": [
+      "frontend_src_utils_apiclient_js",
+      "frontend_src_utils_meetingapi_js",
+      "utils_apiclient_getapierrormessage",
+      "utils_meetingapi_createroom",
+      "utils_meetingapi_getjointoken",
+      "utils_meetingapi_post"
+    ],
+    "24": [
+      "AuroraBackground_canvas_mesh",
+      "COMPLETION_SUMMARY_production_ready_mock_platform",
+      "EtherXBackground_vanta_globe",
+      "NEXMEET_GUIDE_fifteen_advanced_features",
+      "shader-bg_webgl_shader_background",
+      "tailwind_glassmorphic_brand_theme"
+    ],
+    "25": [
+      "deploy_contractabis",
+      "deploy_main",
+      "ipfs_fetchjson",
+      "ipfs_pinjson",
+      "room_handleendrecording"
+    ],
+    "26": [
+      "etherx_transparent_BrandLogo",
+      "etherx_transparent_BrandStyle",
+      "etherx_transparent_ColorPalette",
+      "etherx_transparent_ShieldIcon",
+      "etherx_transparent_Wordmark"
+    ],
+    "27": [
+      "backend_src_config_db_js",
+      "backend_src_index_js",
+      "config_db_connectdb",
+      "src_index_startserver"
+    ],
+    "28": [
+      "backend_src_routes_auth_js",
+      "routes_auth_sanitizeuser",
+      "routes_auth_sendresetemail",
+      "routes_auth_signtoken"
+    ],
+    "29": [
+      "frontend_server_index_js",
+      "server_index_findroombycode",
+      "server_index_normalizecode",
+      "server_index_requirehmsconfig"
+    ],
+    "30": [
+      "frontend_src_components_web3_onchainconfirmmodal_jsx",
+      "web3_onchainconfirmmodal_onchainconfirmmodal",
+      "web3_onchainconfirmmodal_row",
+      "web3_onchainconfirmmodal_spinner"
+    ],
+    "31": [
+      "frontend_src_utils_authapi_js",
+      "utils_authapi_loginuser",
+      "utils_authapi_registeruser",
+      "utils_authapi_submitauth"
+    ],
+    "32": [
+      "insight_ai_signup_signup_page",
+      "insight_ai_signup_social_email_auth",
+      "stitch_kiddo_ai_buddy_assistant_signup_page",
+      "stitch_kiddo_ai_buddy_assistant_tailwind_material_theme"
+    ],
+    "33": [
+      "particlebackground_particle_background",
+      "particlebackground_particle_system",
+      "particlenetwork_mouse_repulsion_network",
+      "particlenetwork_particle_network"
+    ],
+    "34": [
+      "LiveTranslation_component",
+      "LiveTranslation_language_catalog",
+      "LiveTranslation_subtitle_state",
+      "SubtitleDisplay_component"
+    ],
+    "35": [
+      "index_ToolButton",
+      "index_Whiteboard",
+      "index_WhiteboardCanvasModel",
+      "index_WhiteboardExport"
+    ],
+    "36": [
+      "backend_src_routes_recordings_js",
+      "routes_recordings_cleanupuploadedfile",
+      "routes_recordings_handleupload"
+    ],
+    "37": [
+      "frontend_src_app_jsx",
+      "src_app_app",
+      "src_app_approutes"
+    ],
+    "38": [
+      "effects_aurorabackground_aurorabackground",
+      "effects_aurorabackground_meshcanvas",
+      "frontend_src_components_effects_aurorabackground_jsx"
+    ],
+    "39": [
+      "effects_particlenetwork_particlenetwork",
+      "effects_particlenetwork_rand",
+      "frontend_src_components_effects_particlenetwork_jsx"
+    ],
+    "40": [
+      "effects_shaderbackground_mkshader",
+      "effects_shaderbackground_shaderbackground",
+      "frontend_src_components_effects_shaderbackground_jsx"
+    ],
+    "41": [
+      "aiassistant_meetingsummary_meetingsummary",
+      "aiassistant_meetingsummary_section",
+      "frontend_src_components_features_aiassistant_meetingsummary_jsx"
+    ],
+    "42": [
+      "frontend_src_components_features_screenshareplus_index_jsx",
+      "screenshareplus_index_screenshareplus",
+      "screenshareplus_index_togglerow"
+    ],
+    "43": [
+      "frontend_src_components_features_whiteboard_index_jsx",
+      "whiteboard_index_toolbutton",
+      "whiteboard_index_whiteboard"
+    ],
+    "44": [
+      "frontend_src_components_meeting_participantspanel_jsx",
+      "meeting_participantspanel_participantspanel",
+      "meeting_participantspanel_statuspill"
+    ],
+    "45": [
+      "frontend_src_components_meeting_videogrid_jsx",
+      "meeting_videogrid_getgridclass",
+      "meeting_videogrid_videogrid"
+    ],
+    "46": [
+      "frontend_src_components_web3_meetingreceiptmodal_jsx",
+      "web3_meetingreceiptmodal_meetingreceiptmodal",
+      "web3_meetingreceiptmodal_row"
+    ],
+    "47": [
+      "frontend_src_utils_ipfs_js",
+      "utils_ipfs_fetchjson",
+      "utils_ipfs_pinjson"
+    ],
+    "48": [
+      "EtherXMeet_Product_Document_backend_stack",
+      "db_connect_db",
+      "index_start_server"
+    ],
+    "49": [
+      "ChainBadge_polygon_storage_status",
+      "ChainBadge_polygonscan_explorer_link",
+      "ConnectWalletButton_metamask_connection"
+    ],
+    "50": [
+      "shaderbackground_shader_background",
+      "shaderbackground_webgl_beams_blobs_shader",
+      "videobackground_video_background"
+    ],
+    "51": [
+      "asyncmessages_async_messages",
+      "asyncmessages_media_recorder_flow",
+      "asyncmessages_saved_async_messages"
+    ],
+    "52": [
+      "AnimatedPage_AnimatedPage",
+      "AnimatedPage_PageTransitionGate",
+      "CustomCursor_CustomCursor"
+    ],
+    "53": [
+      "CommandPalette_CommandPalette",
+      "CommandPalette_SearchableCommandItems",
+      "Sidebar_Sidebar"
+    ],
+    "54": [
+      "backend_src_models_user_js",
+      "models_user_removesensitivefields"
+    ],
+    "55": [
+      "components_chainbadge_chainbadge",
+      "frontend_src_components_chainbadge_jsx"
+    ],
+    "56": [
+      "dashboard_collaboratoravatar_collaboratoravatar",
+      "frontend_src_components_dashboard_collaboratoravatar_jsx"
+    ],
+    "57": [
+      "dashboard_meetingcard_meetingcard",
+      "frontend_src_components_dashboard_meetingcard_jsx"
+    ],
+    "58": [
+      "dashboard_statscard_statscard",
+      "frontend_src_components_dashboard_statscard_jsx"
+    ],
+    "59": [
+      "effects_etherxbackground_etherxbackground",
+      "frontend_src_components_effects_etherxbackground_jsx"
+    ],
+    "60": [
+      "effects_floatingvideotile_floatingvideotile",
+      "frontend_src_components_effects_floatingvideotile_jsx"
+    ],
+    "61": [
+      "effects_goldglitter_goldglitter",
+      "frontend_src_components_effects_goldglitter_jsx"
+    ],
+    "62": [
+      "effects_particlebackground_particlebackground",
+      "frontend_src_components_effects_particlebackground_jsx"
+    ],
+    "63": [
+      "effects_videobackground_videobackground",
+      "frontend_src_components_effects_videobackground_jsx"
+    ],
+    "64": [
+      "aiassistant_actionitems_actionitems",
+      "frontend_src_components_features_aiassistant_actionitems_jsx"
+    ],
+    "65": [
+      "aiassistant_index_aiassistant",
+      "frontend_src_components_features_aiassistant_index_jsx"
+    ],
+    "66": [
+      "aiassistant_livetranscription_livetranscription",
+      "frontend_src_components_features_aiassistant_livetranscription_jsx"
+    ],
+    "67": [
+      "aiassistant_sentimentmeter_sentimentmeter",
+      "frontend_src_components_features_aiassistant_sentimentmeter_jsx"
+    ],
+    "68": [
+      "analyticsoverlay_engagementscores_engagementscores",
+      "frontend_src_components_features_analyticsoverlay_engagementscores_jsx"
+    ],
+    "69": [
+      "analyticsoverlay_index_analyticsoverlay",
+      "frontend_src_components_features_analyticsoverlay_index_jsx"
+    ],
+    "70": [
+      "analyticsoverlay_meetingpace_meetingpace",
+      "frontend_src_components_features_analyticsoverlay_meetingpace_jsx"
+    ],
+    "71": [
+      "analyticsoverlay_participantinsights_participantinsights",
+      "frontend_src_components_features_analyticsoverlay_participantinsights_jsx"
+    ],
+    "72": [
+      "analyticsoverlay_speakingtimechart_speakingtimechart",
+      "frontend_src_components_features_analyticsoverlay_speakingtimechart_jsx"
+    ],
+    "73": [
+      "engagementgames_index_engagementgames",
+      "frontend_src_components_features_engagementgames_index_jsx"
+    ],
+    "74": [
+      "engagementgames_leaderboard_leaderboard",
+      "frontend_src_components_features_engagementgames_leaderboard_jsx"
+    ],
+    "75": [
+      "frontend_src_components_features_engagementgames_games_emojimoodcheck_jsx",
+      "games_emojimoodcheck_emojimoodcheck"
+    ],
+    "76": [
+      "frontend_src_components_features_engagementgames_games_quickpoll_jsx",
+      "games_quickpoll_quickpoll"
+    ],
+    "77": [
+      "frontend_src_components_features_engagementgames_games_triviaquiz_jsx",
+      "games_triviaquiz_triviaquiz"
+    ],
+    "78": [
+      "frontend_src_components_features_engagementgames_games_twotruthsonelie_jsx",
+      "games_twotruthsonelie_twotruthsonelie"
+    ],
+    "79": [
+      "frontend_src_components_features_engagementgames_games_wordassociation_jsx",
+      "games_wordassociation_wordassociation"
+    ],
+    "80": [
+      "frontend_src_components_features_livetranslation_index_jsx",
+      "livetranslation_index_livetranslation"
+    ],
+    "81": [
+      "frontend_src_components_features_livetranslation_subtitledisplay_jsx",
+      "livetranslation_subtitledisplay_subtitledisplay"
+    ],
+    "82": [
+      "frontend_src_components_features_recordingstudio_layoutselector_jsx",
+      "recordingstudio_layoutselector_layoutselector"
+    ],
+    "83": [
+      "frontend_src_components_features_recordingstudio_qualitysettings_jsx",
+      "recordingstudio_qualitysettings_qualitysettings"
+    ],
+    "84": [
+      "frontend_src_components_features_recordingstudio_recordingindicator_jsx",
+      "recordingstudio_recordingindicator_recordingindicator"
+    ],
+    "85": [
+      "frontend_src_components_features_recordingstudio_recordingpreview_jsx",
+      "recordingstudio_recordingpreview_recordingpreview"
+    ],
+    "86": [
+      "frontend_src_components_features_securitypanel_activitylog_jsx",
+      "securitypanel_activitylog_activitylog"
+    ],
+    "87": [
+      "frontend_src_components_features_securitypanel_index_jsx",
+      "securitypanel_index_securitypanel"
+    ],
+    "88": [
+      "frontend_src_components_features_securitypanel_participantcontrols_jsx",
+      "securitypanel_participantcontrols_participantcontrols"
+    ],
+    "89": [
+      "frontend_src_components_features_securitypanel_waitingroom_jsx",
+      "securitypanel_waitingroom_waitingroom"
+    ],
+    "90": [
+      "frontend_src_components_features_smartagenda_additemmodal_jsx",
+      "smartagenda_additemmodal_additemmodal"
+    ],
+    "91": [
+      "frontend_src_components_features_smartagenda_index_jsx",
+      "smartagenda_index_smartagenda"
+    ],
+    "92": [
+      "frontend_src_components_features_smartagenda_meetinghealth_jsx",
+      "smartagenda_meetinghealth_meetinghealth"
+    ],
+    "93": [
+      "frontend_src_components_features_virtualbackground_backgroundgallery_jsx",
+      "virtualbackground_backgroundgallery_backgroundgallery"
+    ],
+    "94": [
+      "frontend_src_components_features_virtualbackground_backgroundpreview_jsx",
+      "virtualbackground_backgroundpreview_backgroundpreview"
+    ],
+    "95": [
+      "frontend_src_components_features_virtualbackground_blursettings_jsx",
+      "virtualbackground_blursettings_blursettings"
+    ],
+    "96": [
+      "frontend_src_components_features_virtualbackground_colorpicker_jsx",
+      "virtualbackground_colorpicker_colorpicker"
+    ],
+    "97": [
+      "frontend_src_components_features_virtualbackground_customupload_jsx",
+      "virtualbackground_customupload_customupload"
+    ],
+    "98": [
+      "frontend_src_components_features_virtualbackground_index_jsx",
+      "virtualbackground_index_virtualbackgroundstudio"
+    ],
+    "99": [
+      "frontend_src_components_features_voiceeffects_effectcard_jsx",
+      "voiceeffects_effectcard_effectcard"
+    ],
+    "100": [
+      "frontend_src_components_features_voiceeffects_equalizer_jsx",
+      "voiceeffects_equalizer_equalizer"
+    ],
+    "101": [
+      "frontend_src_components_features_voiceeffects_index_jsx",
+      "voiceeffects_index_voiceeffects"
+    ],
+    "102": [
+      "frontend_src_components_layout_sidebar_jsx",
+      "layout_sidebar_sidebar"
+    ],
+    "103": [
+      "frontend_src_components_meeting_audiovisualizer_jsx",
+      "meeting_audiovisualizer_audiovisualizer"
+    ],
+    "104": [
+      "frontend_src_components_meeting_floatingreaction_jsx",
+      "meeting_floatingreaction_floatingreaction"
+    ],
+    "105": [
+      "frontend_src_components_meeting_reactionpicker_jsx",
+      "meeting_reactionpicker_reactionpicker"
+    ],
+    "106": [
+      "frontend_src_components_meeting_videotile_jsx",
+      "meeting_videotile_videotile"
+    ],
+    "107": [
+      "frontend_src_components_modals_joinmeetingmodal_jsx",
+      "modals_joinmeetingmodal_joinmeetingmodal"
+    ],
+    "108": [
+      "frontend_src_components_ui_avatar_jsx",
+      "ui_avatar_avatar"
+    ],
+    "109": [
+      "frontend_src_components_ui_badge_jsx",
+      "ui_badge_badge"
+    ],
+    "110": [
+      "frontend_src_components_ui_button_jsx",
+      "ui_button_button"
+    ],
+    "111": [
+      "frontend_src_components_ui_card_jsx",
+      "ui_card_card"
+    ],
+    "112": [
+      "frontend_src_components_ui_dropdown_jsx",
+      "ui_dropdown_dropdown"
+    ],
+    "113": [
+      "frontend_src_components_ui_input_jsx",
+      "ui_input_input"
+    ],
+    "114": [
+      "frontend_src_components_ui_modal_jsx",
+      "ui_modal_modal"
+    ],
+    "115": [
+      "frontend_src_components_ui_slider_jsx",
+      "ui_slider_slider"
+    ],
+    "116": [
+      "frontend_src_components_ui_spinner_jsx",
+      "ui_spinner_spinner"
+    ],
+    "117": [
+      "frontend_src_components_ui_switch_jsx",
+      "ui_switch_switch"
+    ],
+    "118": [
+      "frontend_src_components_ui_tabs_jsx",
+      "ui_tabs_tabs"
+    ],
+    "119": [
+      "frontend_src_components_ui_tooltip_jsx",
+      "ui_tooltip_tooltip"
+    ],
+    "120": [
+      "frontend_src_components_ui_uidemo_jsx",
+      "ui_uidemo_uidemo"
+    ],
+    "121": [
+      "frontend_src_components_web3_chainproofbadge_jsx",
+      "web3_chainproofbadge_chainproofbadge"
+    ],
+    "122": [
+      "frontend_src_hooks_usevoicefx_js",
+      "hooks_usevoicefx_usevoicefx"
+    ],
+    "123": [
+      "frontend_src_pages_authcallback_jsx",
+      "pages_authcallback_authcallback"
+    ],
+    "124": [
+      "frontend_src_pages_login_jsx",
+      "pages_login_login"
+    ],
+    "125": [
+      "frontend_src_pages_register_jsx",
+      "pages_register_register"
+    ],
+    "126": [
+      "scripts_deploy_js",
+      "scripts_deploy_main"
+    ],
+    "127": [
+      "test_meetingregistry_test_deployregistry",
+      "test_meetingregistry_test_js"
+    ],
+    "128": [
+      "QUICK_REFERENCE_meeting_controls",
+      "README_NEXMEET_user_onboarding"
+    ],
+    "129": [
+      "goldglitter_gold_glitter",
+      "goldglitter_particles"
+    ],
+    "130": [
+      "ToastSystem_Toast",
+      "ToastSystem_ToastSystem"
+    ],
+    "131": [
+      "animationcontext_animation_provider",
+      "animationcontext_reduced_motion_gate"
+    ],
+    "132": [
+      "hardhat_config_js"
+    ],
+    "133": [
+      "ast_extract_py"
+    ],
+    "134": [
+      "backend_src_config_passport_js"
+    ],
+    "135": [
+      "backend_src_middleware_auth_js"
+    ],
+    "136": [
+      "backend_src_middleware_errorhandler_js"
+    ],
+    "137": [
+      "backend_src_models_recording_js"
+    ],
+    "138": [
+      "backend_src_routes_livekit_js"
+    ],
+    "139": [
+      "frontend_postcss_config_js"
+    ],
+    "140": [
+      "frontend_tailwind_config_js"
+    ],
+    "141": [
+      "frontend_vite_config_js"
+    ],
+    "142": [
+      "frontend_src_main_jsx"
+    ],
+    "143": [
+      "frontend_src_components_ui_index_js"
+    ],
+    "144": [
+      "frontend_src_data_agenda_js"
+    ],
+    "145": [
+      "frontend_src_data_analytics_js"
+    ],
+    "146": [
+      "frontend_src_data_meetings_js"
+    ],
+    "147": [
+      "frontend_src_data_participants_js"
+    ],
+    "148": [
+      "frontend_src_data_recordings_js"
+    ],
+    "149": [
+      "frontend_src_data_transcripts_js"
+    ],
+    "150": [
+      "frontend_src_utils_animationvariants_js"
+    ],
+    "151": [
+      "frontend_src_utils_constants_js"
+    ],
+    "152": [
+      "floatingvideotile_floating_video_tile"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09,
+    "1": 0.07,
+    "2": 0.08,
+    "3": 0.09,
+    "4": 0.07,
+    "5": 0.09,
+    "6": 0.1,
+    "7": 0.09,
+    "8": 0.15,
+    "9": 0.11,
+    "10": 0.14,
+    "11": 0.18,
+    "12": 0.15,
+    "13": 0.21,
+    "14": 0.21,
+    "15": 0.36,
+    "16": 0.33,
+    "17": 0.28,
+    "18": 0.25,
+    "19": 0.32,
+    "20": 0.39,
+    "21": 0.29,
+    "22": 0.29,
+    "23": 0.47,
+    "24": 0.4,
+    "25": 0.4,
+    "26": 0.7,
+    "27": 0.5,
+    "28": 0.5,
+    "29": 0.67,
+    "30": 0.5,
+    "31": 0.83,
+    "32": 0.5,
+    "33": 0.5,
+    "34": 0.67,
+    "35": 0.67,
+    "36": 0.67,
+    "37": 0.67,
+    "38": 0.67,
+    "39": 0.67,
+    "40": 0.67,
+    "41": 0.67,
+    "42": 0.67,
+    "43": 0.67,
+    "44": 0.67,
+    "45": 1.0,
+    "46": 0.67,
+    "47": 0.67,
+    "48": 0.67,
+    "49": 0.67,
+    "50": 0.67,
+    "51": 1.0,
+    "52": 0.67,
+    "53": 0.67,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0
+  },
+  "gods": [
+    {
+      "id": "readme_glassmorphic_design_system",
+      "label": "Glassmorphic Design System",
+      "degree": 14
+    },
+    {
+      "id": "index_ui_component_barrel",
+      "label": "UI Component Barrel Export",
+      "degree": 13
+    },
+    {
+      "id": "context_walletcontext_usewallet",
+      "label": "useWallet()",
+      "degree": 12
+    },
+    {
+      "id": "uidemo_ui_demo",
+      "label": "UI Demo",
+      "degree": 12
+    },
+    {
+      "id": "context_meetingcontext_usemeeting",
+      "label": "useMeeting()",
+      "degree": 9
+    },
+    {
+      "id": "meetingcontext_meeting_provider",
+      "label": "Meeting Provider",
+      "degree": 9
+    },
+    {
+      "id": "hooks_usemeetingcontract_usemeetingcontract",
+      "label": "useMeetingContract()",
+      "degree": 8
+    },
+    {
+      "id": "apiclient_apiclient",
+      "label": "apiClient",
+      "degree": 8
+    },
+    {
+      "id": "User_user_model",
+      "label": "User Model",
+      "degree": 7
+    },
+    {
+      "id": "RecordingStudio_component",
+      "label": "RecordingStudio Component",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Graphify AST Extraction Script",
+      "target": "EtherXMeet Project Structure",
+      "source_files": [
+        "_ast_extract.py",
+        "EXPLANATION.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "conceptually_related_to",
+      "why": "ambiguous connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Google OAuth",
+      "target": "User Model",
+      "source_files": [
+        "EtherXMeet_Product_Document.md",
+        "backend/src/models/User.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `Google OAuth` unexpectedly reaches hub `User Model`"
+    },
+    {
+      "source": "8x8.vc Video Conferencing",
+      "target": "LiveKit Token Route",
+      "source_files": [
+        "EtherXMeet_Product_Document.md",
+        "backend/src/routes/livekit.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "connectDB",
+      "target": "Backend Stack",
+      "source_files": [
+        "backend/src/config/db.js",
+        "EtherXMeet_Product_Document.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "WebGL Shader Background",
+      "target": "Aurora Canvas Mesh Background",
+      "source_files": [
+        "frontend/public/shader-bg.html",
+        "frontend/src/components/effects/AuroraBackground.jsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); semantically similar concepts with no structural link"
+    }
+  ],
+  "labels": {
+    "0": "Video / Focus / Modal",
+    "1": "Auth / Lumina / Dark",
+    "2": "ConnectWalletButton / ChainHUD / WalletBanner",
+    "3": "ProtectedRoute / SpeedNetworking / AgendaItem",
+    "4": "Animation / Polygon / Motion",
+    "5": "Control / Chat / Equalizer",
+    "6": "Seed / Persistence / Participant",
+    "7": "index / BottomBar / TopBar",
+    "8": "Chain / Receipt / Registry",
+    "9": "CommandPalette / ToastSystem / useLocalStorage",
+    "10": "Summary / Action / Items",
+    "11": "Model / Middleware / Router",
+    "12": "Room / Provider / Root",
+    "13": "Recording / Controls / ActivityLog",
+    "14": "Sign / Button / Input",
+    "15": "Analytics / Rooms / Participant",
+    "16": "Scheduler / AddItemModal / AgendaItem",
+    "17": "Continue / with / Option",
+    "18": "Dashboard / Layer / Card",
+    "19": "Word / SpeedNetworking / Speed",
+    "20": "Button / Continue / with",
+    "21": "AnimatedPage / CustomCursor / AnimationProvider",
+    "22": "authShared / AppleIcon / EyeIcon",
+    "23": "apiClient / meetingApi / getApiErrorMessage",
+    "24": "Background / Aurora / Canvas",
+    "25": "Contract / Artifacts / Deploy",
+    "26": "Brand / EtherXMeet / Logo",
+    "27": "index / connectDB / startServer",
+    "28": "auth / sanitizeUser / sendResetEmail",
+    "29": "index / findRoomByCode / normalizeCode",
+    "30": "OnChainConfirmModal / Spinner",
+    "31": "authApi / loginUser / registerUser",
+    "32": "Signup / Insight / Page",
+    "33": "Particle / Network / Background",
+    "34": "Live / Translation / LiveTranslation",
+    "35": "Whiteboard / ToolButton / Canvas",
+    "36": "recordings / cleanupUploadedFile / handleUpload",
+    "37": "AppRoutes",
+    "38": "AuroraBackground / MeshCanvas",
+    "39": "ParticleNetwork / rand",
+    "40": "ShaderBackground / mkShader",
+    "41": "MeetingSummary / Section",
+    "42": "index / ScreenSharePlus / ToggleRow",
+    "43": "index / ToolButton / Whiteboard",
+    "44": "ParticipantsPanel / StatusPill",
+    "45": "VideoGrid / getGridClass",
+    "46": "MeetingReceiptModal",
+    "47": "ipfs / fetchJSON / pinJSON",
+    "48": "Backend / Stack / connectDB",
+    "49": "Polygon / Storage / Status",
+    "50": "Shader / Background / WebGL",
+    "51": "Async / Messages / Video",
+    "52": "AnimatedPage / Page / Transition",
+    "53": "CommandPalette / Searchable / Command",
+    "54": "User / removeSensitiveFields",
+    "55": "ChainBadge",
+    "56": "CollaboratorAvatar",
+    "57": "MeetingCard",
+    "58": "StatsCard",
+    "59": "EtherXBackground",
+    "60": "FloatingVideoTile",
+    "61": "GoldGlitter",
+    "62": "ParticleBackground",
+    "63": "VideoBackground",
+    "64": "ActionItems",
+    "65": "AIAssistant / index",
+    "66": "LiveTranscription",
+    "67": "SentimentMeter",
+    "68": "EngagementScores",
+    "69": "AnalyticsOverlay / index",
+    "70": "MeetingPace",
+    "71": "ParticipantInsights",
+    "72": "SpeakingTimeChart",
+    "73": "EngagementGames / index",
+    "74": "Leaderboard",
+    "75": "EmojiMoodCheck",
+    "76": "QuickPoll",
+    "77": "TriviaQuiz",
+    "78": "TwoTruthsOneLie",
+    "79": "WordAssociation",
+    "80": "index / LiveTranslation",
+    "81": "SubtitleDisplay",
+    "82": "LayoutSelector",
+    "83": "QualitySettings",
+    "84": "RecordingIndicator",
+    "85": "RecordingPreview",
+    "86": "ActivityLog",
+    "87": "index / SecurityPanel",
+    "88": "ParticipantControls",
+    "89": "WaitingRoom",
+    "90": "AddItemModal",
+    "91": "index / SmartAgenda",
+    "92": "MeetingHealth",
+    "93": "BackgroundGallery",
+    "94": "BackgroundPreview",
+    "95": "BlurSettings",
+    "96": "ColorPicker",
+    "97": "CustomUpload",
+    "98": "index / VirtualBackgroundStudio",
+    "99": "EffectCard",
+    "100": "Equalizer",
+    "101": "index / VoiceEffects",
+    "102": "Sidebar",
+    "103": "AudioVisualizer",
+    "104": "FloatingReaction",
+    "105": "ReactionPicker",
+    "106": "VideoTile",
+    "107": "JoinMeetingModal",
+    "108": "Avatar",
+    "109": "Badge",
+    "110": "Button",
+    "111": "Card",
+    "112": "Dropdown",
+    "113": "Input",
+    "114": "Modal",
+    "115": "Slider",
+    "116": "Spinner",
+    "117": "Switch",
+    "118": "Tabs",
+    "119": "Tooltip",
+    "120": "UIDemo",
+    "121": "ChainProofBadge",
+    "122": "useVoiceFX",
+    "123": "AuthCallback",
+    "124": "Login",
+    "125": "Register",
+    "126": "deploy / main",
+    "127": "deployRegistry / MeetingRegistry / test",
+    "128": "Controls / Quick / Reference",
+    "129": "Glitter / Gold / Deterministic",
+    "130": "Toast / ToastSystem",
+    "131": "Animation / Provider / Reduced",
+    "132": "hardhat / config",
+    "133": "extract",
+    "134": "passport",
+    "135": "auth",
+    "136": "errorHandler",
+    "137": "Recording",
+    "138": "livekit",
+    "139": "postcss / config",
+    "140": "tailwind / config",
+    "141": "vite / config",
+    "142": "main",
+    "143": "index",
+    "144": "agenda",
+    "145": "analytics",
+    "146": "meetings",
+    "147": "participants",
+    "148": "recordings",
+    "149": "transcripts",
+    "150": "animationVariants",
+    "151": "constants",
+    "152": "Floating / Video / Tile"
+  },
+  "suggested_questions": [
+    {
+      "question": "How does Graphify AST Extraction Script connect to EtherXMeet Project Structure?",
+      "why": "Surprising cross-community connection"
+    },
+    {
+      "question": "How does Google OAuth connect to User Model?",
+      "why": "Surprising cross-community connection"
+    },
+    {
+      "question": "How does 8x8.vc Video Conferencing connect to LiveKit Token Route?",
+      "why": "Surprising cross-community connection"
+    },
+    {
+      "question": "How does connectDB connect to Backend Stack?",
+      "why": "Surprising cross-community connection"
+    },
+    {
+      "question": "How does WebGL Shader Background connect to Aurora Canvas Mesh Background?",
+      "why": "Surprising cross-community connection"
+    }
+  ]
+}
