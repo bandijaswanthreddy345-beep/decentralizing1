@@ -16,10 +16,19 @@ const userSchema = new mongoose.Schema(
     },
     authProvider: {
       type: String,
-      enum: ['local', 'google'],
+      enum: ['local', 'google', 'web3auth'],
       default: 'local',
     },
     googleId: {
+      type: String,
+      default: null,
+    },
+    // Optional fields for Web3Auth users
+    web3authUserId: {
+      type: String,
+      default: null,
+    },
+    walletAddress: {
       type: String,
       default: null,
     },
