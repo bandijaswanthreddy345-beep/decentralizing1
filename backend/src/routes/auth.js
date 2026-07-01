@@ -31,6 +31,8 @@ const signToken = (user) =>
       id: user._id,
       name: user.name,
       email: user.email,
+      // Include walletAddress so blockchainAuth middleware can read it from req.user
+      walletAddress: user.walletAddress || null,
     },
     process.env.JWT_SECRET,
     {
@@ -255,6 +257,36 @@ router.put('/me', auth, async (req, res, next) => {
     if (!user) return res.status(404).json({ success: false, message: 'User not found.' });
 
     return res.json({ success: true, data: { user } });
+  } catch (error) {
+    return next(error);
+  }
+});
+
+// PUT /api/auth/me/wallet — link an Ethereum wallet address to the user account
+router.put('/me/wallet', auth, async (req, res, next) => {
+  try {
+    const { walletAddress } = req.body;
+
+    if (!walletAddress || !walletAddress.trim()) {
+      return res.status(400).json({ success: false, message: 'walletAddress is required.' });
+    }
+
+    // Basic Ethereum address format check
+    if (!/^0x[0-9a-fA-F]{40}$/.test(walletAddress.trim())) {
+      return res.status(400).json({ success: false, message: 'Invalid Ethereum address format.' });
+    }
+
+    const user = await User.findByIdAndUpdate(
+      req.user.id,
+      { $set: { walletAddress: walletAddress.trim().toLowerCase() } },
+      { new: true, runValidators: true },
+    );
+
+    if (!user) return res.status(404).json({ success: false, message: 'User not found.' });
+
+    // Re-issue token with updated walletAddress embedded
+    const token = signToken(user);
+    return res.json({ success: true, data: { token, user } });
   } catch (error) {
     return next(error);
   }
