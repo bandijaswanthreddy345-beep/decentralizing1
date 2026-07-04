@@ -35,6 +35,12 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: null,
     },
+    walletAddress: {
+      type: String,
+      default: null,
+      trim: true,
+      lowercase: true,
+    },
     resetPasswordToken: {
       type: String,
       default: null,
