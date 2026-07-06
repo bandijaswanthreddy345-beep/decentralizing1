@@ -27,7 +27,10 @@ export async function loginWithWeb3Auth() {
     throw new Error('Web3Auth did not return an idToken.')
   }
 
-  return { idToken, userInfo }
+  console.log("Web3Auth userInfo:", userInfo);
+console.log("idToken:", idToken);
+
+return { idToken, userInfo };
 }
 
 export async function logoutWeb3Auth() {

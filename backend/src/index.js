@@ -14,9 +14,19 @@ const errorHandler = require('./middleware/errorHandler');
 
 dotenv.config();
 
+const dns = require('dns');
+
+dns.setServers(['8.8.8.8', '8.8.4.4']);
+
+console.log('DNS Servers:', dns.getServers());
+
+console.log("dotenv loaded MONGODB_URI:", !!process.env.MONGODB_URI);
+console.log("Current working directory:", process.cwd());
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigin = process.env.CLIENT_URL;
+console.log("CLIENT_URL:", allowedOrigin);
 
 configurePassport();
 

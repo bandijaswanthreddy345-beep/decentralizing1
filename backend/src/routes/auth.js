@@ -1,3 +1,4 @@
+const { verifyWeb3AuthToken } = require('../services/web3authVerifier');
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -6,6 +7,8 @@ const emailjs = require('@emailjs/nodejs');
 const passport = require('passport');
 const User = require('../models/User');
 const auth = require('../middleware/auth');
+
+
 
 const sendResetEmail = async (toEmail, toName, resetUrl) => {
   await emailjs.send(
@@ -260,4 +263,133 @@ router.put('/me', auth, async (req, res, next) => {
   }
 });
 
+router.post('/web3auth/verify', async (req, res, next) => {
+  console.log("==== WEB3AUTH VERIFY CALLED ====");
+  try {
+    const { idToken } = req.body;
+
+    if (idToken === undefined) {
+      return res.status(400).json({ success: false, message: 'idToken is required.' });
+    }
+
+    if (idToken === null) {
+      return res.status(400).json({ success: false, message: 'idToken cannot be null.' });
+    }
+
+    if (typeof idToken !== 'string') {
+      return res.status(400).json({ success: false, message: 'idToken must be a string.' });
+    }
+
+    if (idToken.trim() === '') {
+      return res.status(400).json({ success: false, message: 'idToken cannot be empty.' });
+    }
+
+    let verifiedUser;
+    try {
+      verifiedUser = await verifyWeb3AuthToken(idToken);
+    } catch (err) {
+      return res.status(401).json({
+        success: false,
+        message: err.message,
+      });
+    }
+
+    const {
+      web3authUserId,
+      email,
+      name,
+      profileImage,
+      wallets,
+    } = verifiedUser || {};
+
+    const normalizedEmail = email ? email.trim().toLowerCase() : null;
+
+    const walletAddress = (() => {
+      const firstWallet = wallets?.[0];
+      if (!firstWallet) return null;
+
+      // Web3Auth wallet objects sometimes include:
+      // - public_key
+      // - publicKey
+      // - publicAddress
+      // - address
+      const publicKey = firstWallet.public_key || firstWallet.publicKey;
+      if (publicKey) return publicKey;
+
+      const publicAddress = firstWallet.publicAddress || firstWallet.address;
+      if (publicAddress) return publicAddress;
+
+      // If wallets is already an array of strings
+      if (typeof firstWallet === 'string') return firstWallet;
+
+      return null;
+    })();
+
+    const baseUpdate = {
+      authProvider: 'web3auth',
+      web3authUserId: web3authUserId || null,
+      walletAddress: walletAddress || null,
+      avatar: profileImage || null,
+      name: name || null,
+      email: normalizedEmail || null,
+    };
+
+    // Find by web3authUserId first, otherwise by email.
+    let user = null;
+    if (web3authUserId) {
+      user = await User.findOne({ web3authUserId });
+    }
+
+    if (!user && normalizedEmail) {
+      user = await User.findOne({ email: normalizedEmail });
+    }
+
+    if (user) {
+      // If email exists but web3authUserId is empty, link instead of creating a second user.
+      const updates = {
+        ...baseUpdate,
+      };
+
+      // Avoid overwriting name/email with null values.
+      if (!updates.name) delete updates.name;
+      if (!updates.email) delete updates.email;
+
+      Object.assign(user, updates);
+      await user.save();
+    } else {
+      if (!normalizedEmail) {
+        return res.status(401).json({
+          success: false,
+          message: 'Verified user email is missing.',
+        });
+      }
+
+      const createPayload = {
+        name: name || normalizedEmail.split('@')[0],
+        email: normalizedEmail,
+        authProvider: 'web3auth',
+        web3authUserId: web3authUserId || null,
+        walletAddress: walletAddress || null,
+        avatar: profileImage || null,
+      };
+
+      user = await User.create(createPayload);
+    }
+
+    const token = signToken(user);
+
+    return res.status(200).json({
+      success: true,
+      data: {
+        token,
+        user: sanitizeUser(user),
+      },
+    });
+  } catch (error) {
+    return next(error);
+  }
+});
+
+
 module.exports = router;
+
