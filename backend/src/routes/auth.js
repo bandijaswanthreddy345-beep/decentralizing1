@@ -7,6 +7,7 @@ const emailjs = require('@emailjs/nodejs');
 const passport = require('passport');
 const User = require('../models/User');
 const auth = require('../middleware/auth');
+const authRateLimiter = require('../middleware/rateLimiter');
 
 
 
@@ -47,7 +48,7 @@ const sanitizeUser = (user) => {
   return plainUser;
 };
 
-router.post('/register', async (req, res, next) => {
+router.post('/register', authRateLimiter, async (req, res, next) => {
   try {
     const { name, email, password } = req.body;
 
@@ -89,7 +90,7 @@ router.post('/register', async (req, res, next) => {
   }
 });
 
-router.post('/login', async (req, res, next) => {
+router.post('/login', authRateLimiter, async (req, res, next) => {
   try {
     const { email, password } = req.body;
 
@@ -140,7 +141,7 @@ router.post('/login', async (req, res, next) => {
   }
 });
 
-router.post('/forgot-password', async (req, res, next) => {
+router.post('/forgot-password', authRateLimiter, async (req, res, next) => {
   try {
     const { email } = req.body;
     if (!email) return res.status(400).json({ success: false, message: 'Email is required.' });
@@ -263,7 +264,7 @@ router.put('/me', auth, async (req, res, next) => {
   }
 });
 
-router.post('/web3auth/verify', async (req, res, next) => {
+router.post('/web3auth/verify', authRateLimiter, async (req, res, next) => {
   console.log("==== WEB3AUTH VERIFY CALLED ====");
   try {
     const { idToken } = req.body;
